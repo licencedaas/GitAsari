@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout57"
+        android:layout_width="416dp"
+        android:layout_height="284dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/entrada_dungeon"
+            android:layout_width="385dp"
+            android:layout_height="615dp"
+            android:layout_marginTop="-140dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/banner_entrada" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="390dp"
+            android:layout_height="263dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/entrada_dungeon"
+            app:layout_constraintVertical_bias="1.0">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageButton
+            android:id="@+id/reglas_cerrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="140dp"
+            android:background="@drawable/efecto_cerrar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.043"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/entrada_dungeon"
+            app:srcCompat="@drawable/cerrar1" />
+
+        <ImageButton
+            android:id="@+id/id_duelo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-50dp"
+            android:layout_marginTop="156dp"
+            android:background="@drawable/efecto_cerrar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.944"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/entrada_dungeon"
+            app:srcCompat="@drawable/boton_id" />
+
+        <ImageButton
+            android:id="@+id/entrada_calabozo_b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:background="@drawable/efecto_button2"
+            app:layout_constraintEnd_toEndOf="@+id/entrada_dungeon"
+            app:layout_constraintHorizontal_bias="0.149"
+            app:layout_constraintStart_toStartOf="@+id/entrada_dungeon"
+            app:layout_constraintTop_toTopOf="@+id/entrada_dungeon"
+            app:srcCompat="@drawable/boton_calabozo" />
+
+        <ImageButton
+            android:id="@+id/calabozo_b3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="336dp"
+            android:background="@drawable/efecto_button2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.13"
+            app:layout_constraintStart_toStartOf="@+id/entrada_dungeon"
+            app:layout_constraintTop_toTopOf="@+id/entrada_dungeon"
+            app:srcCompat="@drawable/boton_rankig" />
+
+        <EditText
+            android:id="@+id/calabozo_t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="272dp"
+            android:ems="10"
+            android:hint="RUTA SALA DUEL LINK"
+            android:inputType="textPersonName"
+            android:textColor="#F4F0F0"
+            android:textColorHint="#FAF6F6"
+            android:textColorLink="#0097A7"
+            android:textSize="12sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.211"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/entrada_dungeon" />
+
+        <EditText
+            android:id="@+id/calabozo_t2"
+            android:layout_width="164dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="312dp"
+            android:ems="10"
+            android:hint="NUMERO  SALA DUEL LINK"
+            android:inputType="textPersonName"
+            android:textColor="#F8F5F5"
+            android:textColorHighlight="#F8F6F6"
+            android:textColorHint="#FAF6F6"
+            android:textColorLink="#0288D1"
+            android:textSize="12sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.224"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/entrada_dungeon" />
+
+        <Spinner
+            android:id="@+id/calabozo_sp1"
+            android:layout_width="112dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="356dp"
+            android:background="#F8F5F5"
+            app:layout_constraintEnd_toEndOf="@+id/entrada_dungeon"
+            app:layout_constraintHorizontal_bias="0.15"
+            app:layout_constraintStart_toStartOf="@+id/entrada_dungeon"
+            app:layout_constraintTop_toTopOf="@+id/entrada_dungeon" />
+
+        <ImageButton
+            android:id="@+id/calabozo_b5"
+            android:layout_width="31dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="284dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintEnd_toEndOf="@+id/entrada_dungeon"
+            app:layout_constraintHorizontal_bias="0.872"
+            app:layout_constraintStart_toStartOf="@+id/entrada_dungeon"
+            app:layout_constraintTop_toTopOf="@+id/entrada_dungeon"
+            app:srcCompat="@android:drawable/presence_online" />
+
+        <ImageButton
+            android:id="@+id/calabozo_b6"
+            android:layout_width="31dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="320dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintEnd_toEndOf="@+id/entrada_dungeon"
+            app:layout_constraintHorizontal_bias="0.872"
+            app:layout_constraintStart_toStartOf="@+id/entrada_dungeon"
+            app:layout_constraintTop_toTopOf="@+id/entrada_dungeon"
+            app:srcCompat="@android:drawable/presence_online" />
+
+        <ImageButton
+            android:id="@+id/calabozo_b7"
+            android:layout_width="31dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="356dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintEnd_toEndOf="@+id/entrada_dungeon"
+            app:layout_constraintHorizontal_bias="0.587"
+            app:layout_constraintStart_toStartOf="@+id/entrada_dungeon"
+            app:layout_constraintTop_toTopOf="@+id/entrada_dungeon"
+            app:srcCompat="@android:drawable/presence_online" />
+
+        <ImageButton
+            android:id="@+id/entrada_calabozo_b2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/efecto_button2"
+            app:layout_constraintEnd_toStartOf="@+id/id_duelo"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/boton_gremio" />
+
+        <ImageButton
+            android:id="@+id/calabozo_b4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/efecto_button2"
+            app:layout_constraintEnd_toStartOf="@+id/entrada_calabozo_b2"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/boton_polticasi" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView131"
+        android:layout_width="374dp"
+        android:layout_height="201dp"
+        android:layout_marginTop="-30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout57"
+        app:srcCompat="@drawable/inicio_poetada" />
+
+    <ImageView
+        android:id="@+id/imageView186"
+        android:layout_width="394dp"
+        android:layout_height="217dp"
+        android:layout_marginTop="-20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView131"
+        app:srcCompat="@drawable/entrada_underwors" />
+
+    <ImageButton
+        android:id="@+id/entrada_underword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="132dp"
+        android:background="@drawable/efecto_button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView131"
+        app:srcCompat="@drawable/boton_iniciar" />
+
+    <ImageButton
+        android:id="@+id/entrada_calabozo_b3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="132dp"
+        android:background="@drawable/efecto_button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.804"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView131"
+        app:srcCompat="@drawable/boton_reglas" />
+
+    <ImageButton
+        android:id="@+id/creditos_lose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/efecto_button2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView131"
+        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintStart_toStartOf="@+id/imageView131"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout57"
+        app:srcCompat="@drawable/boton_creditos" />
+
+    <ImageView
+        android:id="@+id/imageView200"
+        android:layout_width="357dp"
+        android:layout_height="161dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView186"
+        app:layout_constraintEnd_toEndOf="@+id/imageView131"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="@+id/imageView131"
+        app:layout_constraintTop_toTopOf="@+id/imageView131"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/pj_portada" />
+
+    <ImageView
+        android:id="@+id/imageView202"
+        android:layout_width="365dp"
+        android:layout_height="178dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView186"
+        app:layout_constraintEnd_toEndOf="@+id/imageView131"
+        app:layout_constraintStart_toStartOf="@+id/imageView131"
+        app:layout_constraintTop_toTopOf="@+id/imageView200"
+        app:srcCompat="@drawable/portada1" />
+
+    <ImageButton
+        android:id="@+id/entrada_lose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/efecto_button2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView131"
+        app:layout_constraintHorizontal_bias="0.907"
+        app:layout_constraintStart_toStartOf="@+id/imageView131"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout57"
+        app:srcCompat="@drawable/boton_iniciar" />
+
+    <ImageView
+        android:id="@+id/imageView203"
+        android:layout_width="168dp"
+        android:layout_height="143dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView131"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="@+id/imageView131"
+        app:layout_constraintTop_toTopOf="@+id/imageView131"
+        app:srcCompat="@drawable/portada4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

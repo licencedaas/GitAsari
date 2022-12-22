@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout46"
+        android:layout_width="405dp"
+        android:layout_height="587dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <ImageButton
+            android:id="@+id/random_xyz_cerrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="72dp"
+            android:background="@drawable/efecto_cerrar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.043"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cerrar1" />
+
+        <ImageView
+            android:id="@+id/imageView58"
+            android:layout_width="379dp"
+            android:layout_height="508dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.615"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.911"
+            app:srcCompat="@drawable/abajo_parte4_calabozl" />
+
+        <TextView
+            android:id="@+id/textView56"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="TORNEO FINALIZADO "
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#F6F2F8"
+            android:textSize="34sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView121"
+            android:layout_width="78dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="370dp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView58"
+            app:layout_constraintHorizontal_bias="0.919"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView58"
+            app:srcCompat="@drawable/slogan" />
+
+        <ImageView
+            android:id="@+id/imageView126"
+            android:layout_width="258dp"
+            android:layout_height="281dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.13"
+            app:layout_constraintStart_toStartOf="@+id/imageView58"
+            app:layout_constraintTop_toTopOf="@+id/imageView58"
+            app:srcCompat="@drawable/menu_salon_fama" />
+
+        <TextView
+            android:id="@+id/punto_final_l1"
+            android:layout_width="214dp"
+            android:layout_height="106dp"
+            android:layout_marginTop="108dp"
+            android:text="DUELISTA"
+            android:textColor="#C2185B"
+            android:textSize="34sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/imageView126"
+            app:layout_constraintHorizontal_bias="0.517"
+            app:layout_constraintStart_toStartOf="@+id/imageView126"
+            app:layout_constraintTop_toTopOf="@+id/imageView58" />
+
+        <TextView
+            android:id="@+id/textView60"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="GANADOR DEL MES"
+            android:textColor="#F3F1F8"
+            android:textSize="20sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView56" />
+
+        <TextView
+            android:id="@+id/textView61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="GANADOR DEL MES"
+            android:textColor="#F3F1F8"
+            android:textSize="20sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView56" />
+
+        <TextView
+            android:id="@+id/punto_final_l4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:text="MES"
+            android:textColor="#F3F1F8"
+            android:textSize="20sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView56" />
+
+        <TextView
+            android:id="@+id/punto_final_l2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:text="PS TOTALES:"
+            android:textColor="#050404"
+            android:textSize="20sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/imageView126"
+            app:layout_constraintHorizontal_bias="0.195"
+            app:layout_constraintStart_toStartOf="@+id/imageView126"
+            app:layout_constraintTop_toTopOf="@+id/imageView58" />
+
+        <TextView
+            android:id="@+id/punto_final_l3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp"
+            android:text="1TIER:"
+            android:textColor="#C2185B"
+            android:textSize="20sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/imageView126"
+            app:layout_constraintHorizontal_bias="0.138"
+            app:layout_constraintStart_toStartOf="@+id/imageView126"
+            app:layout_constraintTop_toTopOf="@+id/imageView58" />
+
+        <ImageView
+            android:id="@+id/imageView117"
+            android:layout_width="138dp"
+            android:layout_height="156dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView58"
+            app:srcCompat="@drawable/copalvl6_1_" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

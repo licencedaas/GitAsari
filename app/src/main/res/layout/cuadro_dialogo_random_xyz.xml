@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout46"
+        android:layout_width="405dp"
+        android:layout_height="587dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <ImageView
+            android:id="@+id/imageView144"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="84dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/detalles_ramndom" />
+
+        <TextView
+            android:id="@+id/xyz_l1"
+            android:layout_width="63dp"
+            android:layout_height="17dp"
+            android:layout_marginTop="76dp"
+            android:text="duelista"
+            android:textColor="@color/color3"
+            android:textSize="16sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/imageView144"
+            app:layout_constraintStart_toStartOf="@+id/imageView144"
+            app:layout_constraintTop_toTopOf="@+id/imageView144" />
+
+        <TextView
+            android:id="@+id/xyz_l2"
+            android:layout_width="63dp"
+            android:layout_height="17dp"
+            android:layout_marginTop="412dp"
+            android:text="duelista"
+            android:textColor="@color/color3"
+            android:textSize="16sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/imageView144"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="@+id/imageView144"
+            app:layout_constraintTop_toTopOf="@+id/imageView144" />
+
+        <ImageButton
+            android:id="@+id/random_xyz_cerrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="84dp"
+            android:background="@drawable/efecto_cerrar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.126"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cerrar1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="403dp"
+        android:layout_height="73dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout46">
+
+        <ImageButton
+            android:id="@+id/xyz_b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/efecto_button2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.143"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/boton_iniciar" />
+
+        <ImageButton
+            android:id="@+id/xyz_b2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/efecto_button2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.878"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/boton_generar" />
+
+        <ImageButton
+            android:id="@+id/xyz_b3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/presence_online" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

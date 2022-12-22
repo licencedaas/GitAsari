@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF">
+
+
+    <ImageButton
+        android:id="@+id/under_cerrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/efecto_cerrar"
+
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cerrar1"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="344dp"
+        android:layout_height="671dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageButton
+                    android:id="@+id/equipo1"
+                    android:layout_width="344dp"
+                    android:layout_height="220dp"
+                    android:background="#00FFFFFF"
+                    android:contentDescription="underword"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/vs_underword" />
+
+                <ImageView
+                    android:id="@+id/imageView221"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="@+id/equipo1"
+                    app:layout_constraintEnd_toEndOf="@+id/equipo1"
+                    app:layout_constraintHorizontal_bias="0.503"
+                    app:layout_constraintStart_toStartOf="@+id/equipo1"
+                    app:layout_constraintTop_toTopOf="@+id/equipo1"
+                    app:layout_constraintVertical_bias="0.697"
+                    app:srcCompat="@drawable/marco_lose" />
+
+                <ImageView
+                    android:id="@+id/imageView222"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="@+id/equipo1"
+                    app:layout_constraintEnd_toEndOf="@+id/equipo1"
+                    app:layout_constraintHorizontal_bias="0.503"
+                    app:layout_constraintStart_toStartOf="@+id/equipo1"
+                    app:layout_constraintTop_toTopOf="@+id/equipo1"
+                    app:layout_constraintVertical_bias="0.343"
+                    app:srcCompat="@drawable/marco_lose" />
+
+                <ImageView
+                    android:id="@+id/img1_estado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/equipo1"
+                    app:layout_constraintEnd_toEndOf="@+id/equipo1"
+                    app:layout_constraintHorizontal_bias="0.568"
+                    app:layout_constraintStart_toStartOf="@+id/equipo1"
+                    app:layout_constraintTop_toTopOf="@+id/equipo1"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@drawable/marco3" />
+
+                <ImageView
+                    android:id="@+id/imageView224"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/equipo1"
+                    app:layout_constraintEnd_toEndOf="@+id/equipo1"
+                    app:layout_constraintHorizontal_bias="0.569"
+                    app:layout_constraintStart_toStartOf="@+id/equipo1"
+                    app:layout_constraintTop_toTopOf="@+id/equipo1"
+                    app:layout_constraintVertical_bias="0.957"
+                    app:srcCompat="@drawable/marco2" />
+
+                <ImageButton
+                    android:id="@+id/equipo2"
+                    android:layout_width="344dp"
+                    android:layout_height="220dp"
+                    android:layout_marginTop="4dp"
+                    android:background="#00FFFFFF"
+                    android:contentDescription="underword"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/equipo1"
+                    app:srcCompat="@drawable/vs_underword" />
+
+                <ImageView
+                    android:id="@+id/imageView225"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="@+id/equipo2"
+                    app:layout_constraintEnd_toEndOf="@+id/equipo2"
+                    app:layout_constraintHorizontal_bias="0.553"
+                    app:layout_constraintStart_toStartOf="@+id/equipo2"
+                    app:layout_constraintTop_toTopOf="@+id/equipo2"
+                    app:layout_constraintVertical_bias="0.044"
+                    app:srcCompat="@drawable/marco3" />
+
+                <ImageView
+                    android:id="@+id/imageView226"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="@+id/equipo2"
+                    app:layout_constraintEnd_toEndOf="@+id/equipo2"
+                    app:layout_constraintHorizontal_bias="0.503"
+                    app:layout_constraintStart_toStartOf="@+id/equipo2"
+                    app:layout_constraintTop_toTopOf="@+id/equipo2"
+                    app:layout_constraintVertical_bias="0.333"
+                    app:srcCompat="@drawable/marco_lose" />
+
+
+                <ImageView
+                    android:id="@+id/imageView227"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="@+id/equipo2"
+                    app:layout_constraintEnd_toEndOf="@+id/equipo2"
+                    app:layout_constraintHorizontal_bias="0.503"
+                    app:layout_constraintStart_toStartOf="@+id/equipo2"
+                    app:layout_constraintTop_toTopOf="@+id/equipo2"
+                    app:layout_constraintVertical_bias="0.687"
+                    app:srcCompat="@drawable/marco_lose" />
+
+                <ImageView
+                    android:id="@+id/imageView228"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/equipo2"
+                    app:layout_constraintEnd_toEndOf="@+id/equipo2"
+                    app:layout_constraintHorizontal_bias="0.569"
+                    app:layout_constraintStart_toStartOf="@+id/equipo2"
+                    app:layout_constraintTop_toTopOf="@+id/equipo2"
+                    app:layout_constraintVertical_bias="0.957"
+                    app:srcCompat="@drawable/marco2" />
+
+                <ImageButton
+                    android:id="@+id/equipo3"
+                    android:layout_width="344dp"
+                    android:layout_height="220dp"
+                    android:layout_marginTop="4dp"
+                    android:background="#00FFFFFF"
+                    android:contentDescription="underword"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/equipo2"
+                    app:srcCompat="@drawable/vs_underword" />
+
+                <ImageView
+                    android:id="@+id/imag6_estado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="@+id/equipo3"
+                    app:layout_constraintEnd_toEndOf="@+id/equipo3"
+                    app:layout_constraintHorizontal_bias="0.503"
+                    app:layout_constraintStart_toStartOf="@+id/equipo3"
+                    app:layout_constraintTop_toBottomOf="@+id/equipo2"
+                    app:layout_constraintVertical_bias="0.357"
+                    app:srcCompat="@drawable/marco_lose" />
+
+                <ImageView
+                    android:id="@+id/imag8_estado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="@+id/equipo3"
+                    app:layout_constraintEnd_toEndOf="@+id/equipo3"
+                    app:layout_constraintHorizontal_bias="0.569"
+                    app:layout_constraintStart_toStartOf="@+id/equipo3"
+                    app:layout_constraintTop_toBottomOf="@+id/equipo2"
+                    app:layout_constraintVertical_bias="0.959"
+                    app:srcCompat="@drawable/marco2" />
+
+                <ImageView
+                    android:id="@+id/imag7_estado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="@+id/equipo3"
+                    app:layout_constraintEnd_toEndOf="@+id/equipo3"
+                    app:layout_constraintHorizontal_bias="0.503"
+                    app:layout_constraintStart_toStartOf="@+id/equipo3"
+                    app:layout_constraintTop_toBottomOf="@+id/equipo2"
+                    app:layout_constraintVertical_bias="0.724"
+                    app:srcCompat="@drawable/marco_lose" />
+
+                <ImageView
+                    android:id="@+id/imag5_estado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/equipo3"
+                    app:layout_constraintEnd_toEndOf="@+id/equipo3"
+                    app:layout_constraintHorizontal_bias="0.575"
+                    app:layout_constraintStart_toStartOf="@+id/equipo3"
+                    app:layout_constraintTop_toBottomOf="@+id/equipo2"
+                    app:layout_constraintVertical_bias="0.08"
+                    app:srcCompat="@drawable/marco3" />
+
+                <TextView
+                    android:id="@+id/vs_estado1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoSizeTextType="uniform"
+                    android:text="esperando"
+                    android:textColor="#070404"
+                    android:textSize="12sp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/img1_estado"
+                    app:layout_constraintEnd_toEndOf="@+id/img1_estado"
+                    app:layout_constraintHorizontal_bias="0.436"
+                    app:layout_constraintStart_toStartOf="@+id/img1_estado"
+                    app:layout_constraintTop_toTopOf="@+id/img1_estado"
+                    app:layout_constraintVertical_bias="0.666" />
+
+                <TextView
+                    android:id="@+id/vs_estado2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoSizeTextType="uniform"
+                    android:text="esperando"
+                    android:textColor="#070404"
+                    android:textSize="12sp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView224"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView224"
+                    app:layout_constraintHorizontal_bias="0.436"
+                    app:layout_constraintStart_toStartOf="@+id/imageView224"
+                    app:layout_constraintTop_toTopOf="@+id/imageView224"
+                    app:layout_constraintVertical_bias="0.666" />
+
+                <TextView
+                    android:id="@+id/vs_estado3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoSizeTextType="uniform"
+                    android:text="esperando"
+                    android:textColor="#070404"
+                    android:textSize="12sp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView225"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView225"
+                    app:layout_constraintHorizontal_bias="0.436"
+                    app:layout_constraintStart_toStartOf="@+id/imageView225"
+                    app:layout_constraintTop_toBottomOf="@+id/equipo1"
+                    app:layout_constraintVertical_bias="0.666" />
+
+                <TextView
+                    android:id="@+id/vs_estado4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoSizeTextType="uniform"
+                    android:text="esperando"
+                    android:textColor="#070404"
+                    android:textSize="12sp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView228"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView228"
+                    app:layout_constraintHorizontal_bias="0.436"
+                    app:layout_constraintStart_toStartOf="@+id/imageView228"
+                    app:layout_constraintTop_toTopOf="@+id/imageView228"
+                    app:layout_constraintVertical_bias="0.666" />
+
+                <TextView
+                    android:id="@+id/vs_estado5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoSizeTextType="uniform"
+                    android:text="esperando"
+                    android:textColor="#070404"
+                    android:textSize="12sp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/imag5_estado"
+                    app:layout_constraintEnd_toEndOf="@+id/imag5_estado"
+                    app:layout_constraintHorizontal_bias="0.436"
+                    app:layout_constraintStart_toStartOf="@+id/imag5_estado"
+                    app:layout_constraintTop_toBottomOf="@+id/equipo2"
+                    app:layout_constraintVertical_bias="0.666" />
+
+                <TextView
+                    android:id="@+id/vs_estado6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoSizeTextType="uniform"
+                    android:text="esperando"
+                    android:textColor="#070404"
+                    android:textSize="12sp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/imag8_estado"
+                    app:layout_constraintEnd_toEndOf="@+id/imag8_estado"
+                    app:layout_constraintHorizontal_bias="0.436"
+                    app:layout_constraintStart_toStartOf="@+id/imag8_estado"
+                    app:layout_constraintTop_toTopOf="@+id/imag8_estado"
+                    app:layout_constraintVertical_bias="0.666" />
+
+                <TextView
+                    android:id="@+id/under_l1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:autoSizeTextType="uniform"
+                    android:text="equipo1"
+                    android:textColor="#D32F2F"
+                    android:textSize="12sp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView222"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView222"
+                    app:layout_constraintHorizontal_bias="0.496"
+                    app:layout_constraintStart_toStartOf="@+id/imageView222"
+                    app:layout_constraintTop_toTopOf="@+id/imageView222"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/under_l2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:autoSizeTextType="uniform"
+                    android:text="equipo1"
+                    android:textColor="#D32F2F"
+                    android:textSize="12sp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView221"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView221"
+                    app:layout_constraintHorizontal_bias="0.496"
+                    app:layout_constraintStart_toStartOf="@+id/imageView221"
+                    app:layout_constraintTop_toTopOf="@+id/imageView221"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/under_l3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:autoSizeTextType="uniform"
+                    android:text="equipo1"
+                    android:textColor="#D32F2F"
+                    android:textSize="12sp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView226"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView226"
+                    app:layout_constraintHorizontal_bias="0.496"
+                    app:layout_constraintStart_toStartOf="@+id/imageView226"
+                    app:layout_constraintTop_toTopOf="@+id/imageView226"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/under_l4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:autoSizeTextType="uniform"
+                    android:text="equipo1"
+                    android:textColor="#D32F2F"
+                    android:textSize="12sp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView227"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView227"
+                    app:layout_constraintHorizontal_bias="0.496"
+                    app:layout_constraintStart_toStartOf="@+id/imageView227"
+                    app:layout_constraintTop_toTopOf="@+id/imageView227"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/under_l5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoSizeTextType="uniform"
+                    android:text="equipo1"
+                    android:textColor="#D32F2F"
+                    android:textSize="12sp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/imag6_estado"
+                    app:layout_constraintEnd_toEndOf="@+id/imag6_estado"
+                    app:layout_constraintHorizontal_bias="0.496"
+                    app:layout_constraintStart_toStartOf="@+id/imag6_estado"
+                    app:layout_constraintTop_toTopOf="@+id/imag6_estado"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/under_l6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoSizeTextType="uniform"
+                    android:text="equipo1"
+                    android:textColor="#D32F2F"
+                    android:textSize="12sp"
+                    android:textStyle="normal|bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/imag7_estado"
+                    app:layout_constraintEnd_toEndOf="@+id/imag7_estado"
+                    app:layout_constraintHorizontal_bias="0.496"
+                    app:layout_constraintStart_toStartOf="@+id/imag7_estado"
+                    app:layout_constraintTop_toTopOf="@+id/imag7_estado"
+                    app:layout_constraintVertical_bias="0.0" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/derrotaViedeo_v5"
+        android:layout_width="405dp"
+        android:layout_height="587dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="403dp"
+            android:layout_height="103dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView128"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/parte3" />
+
+        <ImageButton
+            android:id="@+id/reglas_cerrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/efecto_cerrar"
+            app:layout_constraintEnd_toEndOf="@+id/imageView128"
+            app:layout_constraintHorizontal_bias="0.079"
+            app:layout_constraintStart_toStartOf="@+id/imageView128"
+            app:layout_constraintTop_toTopOf="@+id/imageView128"
+            app:srcCompat="@drawable/cerrar1" />
+
+        <TextView
+            android:id="@+id/finalista_dungeo_l1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="190dp"
+            android:text="duelista"
+            android:textColor="#C51162"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.178"
+            app:layout_constraintStart_toStartOf="@+id/imageView128"
+            app:layout_constraintTop_toTopOf="@+id/imageView128" />
+
+        <TextView
+            android:id="@+id/finalista_dungeo_la"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="190dp"
+            android:text="duelista"
+            android:textColor="#C51162"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/imageView128"
+            app:layout_constraintTop_toTopOf="@+id/imageView128" />
+
+        <TextView
+            android:id="@+id/finalista_dungeo_l2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="190dp"
+            android:text="duelista"
+            android:textColor="#C51162"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.796"
+            app:layout_constraintStart_toStartOf="@+id/imageView128"
+            app:layout_constraintTop_toTopOf="@+id/imageView128" />
+
+        <TextView
+            android:id="@+id/finalista_dungeo_l3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="236dp"
+            android:text="duelista"
+            android:textColor="#C51162"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.177"
+            app:layout_constraintStart_toStartOf="@+id/imageView128"
+            app:layout_constraintTop_toTopOf="@+id/imageView128" />
+
+        <TextView
+            android:id="@+id/finalista_dungeo_l4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:text="duelista"
+            android:textColor="#C51162"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/imageView128"
+            app:layout_constraintTop_toTopOf="@+id/imageView128" />
+
+        <TextView
+            android:id="@+id/finalista_dungeo_l5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:text="duelista"
+            android:textColor="#C51162"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.776"
+            app:layout_constraintStart_toStartOf="@+id/imageView128"
+            app:layout_constraintTop_toTopOf="@+id/imageView128" />
+
+        <TextView
+            android:id="@+id/finalista_dungeo_l6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="292dp"
+            android:text="duelista"
+            android:textColor="#C51162"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.177"
+            app:layout_constraintStart_toStartOf="@+id/imageView128"
+            app:layout_constraintTop_toTopOf="@+id/imageView128" />
+
+        <TextView
+            android:id="@+id/finalista_dungeo_l7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="285dp"
+            android:text="duelista"
+            android:textColor="#C51162"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/imageView128"
+            app:layout_constraintTop_toTopOf="@+id/imageView128" />
+
+        <TextView
+            android:id="@+id/finalista_dungeo_l8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="292dp"
+            android:text="duelista"
+            android:textColor="#C51162"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.776"
+            app:layout_constraintStart_toStartOf="@+id/imageView128"
+            app:layout_constraintTop_toTopOf="@+id/imageView128" />
+
+        <TextView
+            android:id="@+id/finalista_dungeo_l9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="332dp"
+            android:text="duelista"
+            android:textColor="#C51162"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.177"
+            app:layout_constraintStart_toStartOf="@+id/imageView128"
+            app:layout_constraintTop_toTopOf="@+id/imageView128" />
+
+        <TextView
+            android:id="@+id/finalista_dungeo_l10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="332dp"
+            android:text="duelista"
+            android:textColor="#C51162"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/imageView128"
+            app:layout_constraintTop_toTopOf="@+id/imageView128" />
+
+        <TextView
+            android:id="@+id/finalista_dungeo_l11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="332dp"
+            android:text="duelista"
+            android:textColor="#C51162"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.776"
+            app:layout_constraintStart_toStartOf="@+id/imageView128"
+            app:layout_constraintTop_toTopOf="@+id/imageView128" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

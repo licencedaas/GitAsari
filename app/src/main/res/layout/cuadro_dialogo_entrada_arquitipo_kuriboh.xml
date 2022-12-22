@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="405dp"
+        android:layout_height="587dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="403dp"
+            android:layout_height="103dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" >
+
+            <ImageButton
+                android:id="@+id/entrada_arque_politica"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="58dp"
+                android:background="#00FFFFFF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.114"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/boton_polticasi" />
+
+            <ImageButton
+                android:id="@+id/arquetipo_b2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:background="#00FFFFFF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.864"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/boton_gremio" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/entrada_dungeon"
+            android:layout_width="385dp"
+            android:layout_height="615dp"
+            android:layout_marginTop="-100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.95"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/entrada_arquetipo" />
+
+        <ImageButton
+            android:id="@+id/reglas_cerrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="132dp"
+            android:background="@drawable/efecto_cerrar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.049"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/entrada_dungeon"
+            app:srcCompat="@drawable/cerrar1" />
+
+        <ImageView
+            android:id="@+id/imageView173"
+            android:layout_width="402dp"
+            android:layout_height="216dp"
+            android:layout_marginTop="420dp"
+            app:layout_constraintEnd_toEndOf="@+id/entrada_dungeon"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/entrada_dungeon"
+            app:srcCompat="@drawable/letra_arquetipo" />
+
+        <ImageButton
+            android:id="@+id/arquetipo_b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="284dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/boton_calabozo" />
+
+        <ImageButton
+            android:id="@+id/arquetipo_ba"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="284dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.82"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/boton_rankig" />
+
+        <ImageButton
+            android:id="@+id/arquetipo_b5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="212dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.886"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/presence_online" />
+
+        <ImageButton
+            android:id="@+id/arquetipo_b3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="274dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.886"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/presence_online" />
+
+        <ImageButton
+            android:id="@+id/arquetipo_b4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="334dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.886"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/presence_online" />
+
+        <EditText
+            android:id="@+id/arquetipo_t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="228dp"
+            android:ems="10"
+            android:hint="Enlace Sala duel link"
+            android:inputType="textPersonName"
+            android:textColor="#FFF9F9"
+            android:textColorHint="#FFFFFF"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.13"
+            app:layout_constraintStart_toStartOf="@+id/entrada_dungeon"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/arquetipo_t2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="264dp"
+            android:ems="10"
+            android:hint="Numero sala"
+            android:inputType="textPersonName"
+            android:textColor="#FFF9F9"
+            android:textColorHint="#FFFFFF"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.12"
+            app:layout_constraintStart_toStartOf="@+id/entrada_dungeon"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/arquetipo_sp1"
+            android:layout_width="125dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="320dp"
+            android:background="#FBF9F9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.207"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

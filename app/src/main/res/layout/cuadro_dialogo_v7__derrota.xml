@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="405dp"
+        android:layout_height="587dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="403dp"
+            android:layout_height="103dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/ondo_dungeoxyzv8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cortina1" />
+
+        <ImageButton
+            android:id="@+id/reglas_cerrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="384dp"
+            android:background="@drawable/efecto_cerrar"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.104"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8"
+            app:srcCompat="@drawable/cerrar1" />
+
+        <ImageButton
+            android:id="@+id/v7_derrota_b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="256dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.72"
+            app:layout_constraintStart_toStartOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8"
+            app:srcCompat="@drawable/boton_lose" />
+
+        <TextView
+            android:id="@+id/derrotaV7_l2"
+            android:layout_width="217dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="72dp"
+            android:text="Solo para duelistas            perdedores"
+            android:textColor="#FAF6F6"
+            android:textSize="20sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.914"
+            app:layout_constraintStart_toStartOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/derrotaV7_l13"
+            android:layout_width="108dp"
+            android:layout_height="105dp"
+            android:layout_marginTop="128dp"
+            android:text="Si perdio el duelo oprima DERROTA"
+            android:textColor="#FAF6F6"
+            android:textSize="20sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.09"
+            app:layout_constraintStart_toStartOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <VideoView
+            android:id="@+id/derrotaVideov7"
+            android:layout_width="352dp"
+            android:layout_height="357dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/derrotaV7_l1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="168dp"
+            android:text="CODIGO"
+            android:textColor="#AEEA00"
+            android:textSize="48sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.782"
+            app:layout_constraintStart_toStartOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

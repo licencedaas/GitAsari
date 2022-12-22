@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/derrotaViedeo_v5"
+        android:layout_width="405dp"
+        android:layout_height="587dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="403dp"
+            android:layout_height="103dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/ondo_dungeoxyzv8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baner_detalles3" />
+
+        <ImageButton
+            android:id="@+id/reglas_cerrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="360dp"
+            android:background="@drawable/efecto_cerrar"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.093"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8"
+            app:srcCompat="@drawable/cerrar1" />
+
+        <ImageButton
+            android:id="@+id/politica_cierre_semana"
+            android:layout_width="62dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="354dp"
+            android:background="@drawable/efecto_reglas_good_n1"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.842"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8"
+            app:srcCompat="@drawable/boton_info_asari1" />
+
+        <TextView
+            android:id="@+id/politicas_l1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:text="duelista"
+            android:textColor="@color/color3"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.09"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_la"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:text="duelista"
+            android:textColor="#C51162"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.32"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_lb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="156dp"
+            android:text="duelista"
+            android:textColor="#C51162"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.604"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_lb13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="156dp"
+            android:text="duelista"
+            android:textColor="#C51162"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.779"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_lb14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="168dp"
+            android:text="duelista"
+            android:textColor="#6200EA"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.779"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_lb15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="184dp"
+            android:text="duelista"
+            android:textColor="#C51162"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.779"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_lb16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="197dp"
+            android:text="duelista"
+            android:textColor="#6200EA"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.779"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_lb17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="216dp"
+            android:text="duelista"
+            android:textColor="#C51162"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.779"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_lb18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="232dp"
+            android:text="duelista"
+            android:textColor="#6200EA"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.779"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_lb19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="244dp"
+            android:text="duelista"
+            android:textColor="#C51162"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.779"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_lb20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="260dp"
+            android:text="duelista"
+            android:textColor="#6200EA"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.779"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_lb21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="276dp"
+            android:text="duelista"
+            android:textColor="#C51162"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.779"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_lb22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="292dp"
+            android:text="duelista"
+            android:textColor="#6200EA"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.779"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_lb23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="308dp"
+            android:text="duelista"
+            android:textColor="#C51162"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.779"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_lb24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="320dp"
+            android:text="duelista"
+            android:textColor="#6200EA"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.779"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_lb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="168dp"
+            android:text="duelista"
+            android:textColor="#6200EA"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.604"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_lb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="184dp"
+            android:text="duelista"
+            android:textColor="#C51162"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.604"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_lb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:text="duelista"
+            android:textColor="#6200EA"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.604"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_lb5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="216dp"
+            android:text="duelista"
+            android:textColor="#C51162"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.604"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_lb6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="228dp"
+            android:text="duelista"
+            android:textColor="#6200EA"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.604"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_lb7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="244dp"
+            android:text="duelista"
+            android:textColor="#C51162"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.604"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_lb8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="264dp"
+            android:text="duelista"
+            android:textColor="#6200EA"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.604"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_lb9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="280dp"
+            android:text="duelista"
+            android:textColor="#C51162"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.604"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_lb10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="296dp"
+            android:text="duelista"
+            android:textColor="#6200EA"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.604"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_lb11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="312dp"
+            android:text="duelista"
+            android:textColor="#C51162"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.604"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_lb12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="324dp"
+            android:text="duelista"
+            android:textColor="#6200EA"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.604"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_la2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="156dp"
+            android:text="duelista"
+            android:textColor="#304FFE"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.32"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_la3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="172dp"
+            android:text="duelista"
+            android:textColor="#C51162"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.32"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_la4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="188dp"
+            android:text="duelista"
+            android:textColor="#304FFE"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.32"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_la5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="204dp"
+            android:text="duelista"
+            android:textColor="#C51162"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.32"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_la6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="220dp"
+            android:text="duelista"
+            android:textColor="#304FFE"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.32"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_la7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="236dp"
+            android:text="duelista"
+            android:textColor="#C51162"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.32"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_la8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="252dp"
+            android:text="duelista"
+            android:textColor="#304FFE"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.32"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_la9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="268dp"
+            android:text="duelista"
+            android:textColor="#C51162"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.32"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_la10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="283dp"
+            android:text="duelista"
+            android:textColor="#304FFE"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.32"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_la11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:text="duelista"
+            android:textColor="#C51162"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.32"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_la12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="320dp"
+            android:text="duelista"
+            android:textColor="#304FFE"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.32"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_l12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="320dp"
+            android:text="duelista"
+            android:textColor="#304FFE"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.09"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_l2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="156dp"
+            android:text="duelista"
+            android:textColor="#304FFE"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.09"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_l3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="172dp"
+            android:text="duelista"
+            android:textColor="@color/color3"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.09"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_l4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="188dp"
+            android:text="duelista"
+            android:textColor="#304FFE"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.09"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_l5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="204dp"
+            android:text="duelista"
+            android:textColor="@color/color3"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.09"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_l6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="220dp"
+            android:text="duelista"
+            android:textColor="#304FFE"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.09"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_l7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="236dp"
+            android:text="duelista"
+            android:textColor="@color/color3"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.09"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_l8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="252dp"
+            android:text="duelista"
+            android:textColor="#304FFE"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.09"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_l9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="268dp"
+            android:text="duelista"
+            android:textColor="@color/color3"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.09"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_l10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="284dp"
+            android:text="duelista"
+            android:textColor="#304FFE"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.09"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/politicas_l11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:text="duelista"
+            android:textColor="@color/color3"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.09"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="108dp"
+            android:text="ROOM POINT DUNGEON XYZ"
+            android:textColor="#050404"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.822"
+            app:layout_constraintStart_toStartOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="124dp"
+            android:text="TABLE GENERAL"
+            android:textColor="#050404"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.737"
+            app:layout_constraintStart_toStartOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="108dp"
+            android:text="ROON POINT V6"
+            android:textColor="#801212"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.09"
+            app:layout_constraintStart_toStartOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

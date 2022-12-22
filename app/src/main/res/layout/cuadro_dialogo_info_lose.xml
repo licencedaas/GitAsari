@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/derrotaViedeo_v5"
+        android:layout_width="405dp"
+        android:layout_height="587dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/ondo_dungeoxyzv8"
+            android:layout_width="382dp"
+            android:layout_height="559dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.235"
+            app:srcCompat="@drawable/info_lose" />
+
+        <TextView
+            android:id="@+id/info_l2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="216dp"
+            android:text="duelista"
+            android:textColor="@color/color3"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.543"
+            app:layout_constraintStart_toStartOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/info_l20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="216dp"
+            android:text="duelista"
+            android:textColor="@color/color3"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.773"
+            app:layout_constraintStart_toStartOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/info_l21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="232dp"
+            android:text="duelista"
+            android:textColor="@color/color3"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.773"
+            app:layout_constraintStart_toStartOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/info_l23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="248dp"
+            android:text="duelista"
+            android:textColor="@color/color3"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.773"
+            app:layout_constraintStart_toStartOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/info_l25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="276dp"
+            android:text="duelista"
+            android:textColor="@color/color3"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.773"
+            app:layout_constraintStart_toStartOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/info_l26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="292dp"
+            android:text="duelista"
+            android:textColor="@color/color3"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.773"
+            app:layout_constraintStart_toStartOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/info_l27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="308dp"
+            android:text="duelista"
+            android:textColor="@color/color3"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.773"
+            app:layout_constraintStart_toStartOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/info_l28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="324dp"
+            android:text="duelista"
+            android:textColor="@color/color3"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.773"
+            app:layout_constraintStart_toStartOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/info_l30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="340dp"
+            android:text="duelista"
+            android:textColor="@color/color3"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.773"
+            app:layout_constraintStart_toStartOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/info_l24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="260dp"
+            android:text="duelista"
+            android:textColor="@color/color3"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.773"
+            app:layout_constraintStart_toStartOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/info_l3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="232dp"
+            android:text="duelista"
+            android:textColor="@color/color3"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.543"
+            app:layout_constraintStart_toStartOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/info_l4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="248dp"
+            android:text="duelista"
+            android:textColor="@color/color3"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.543"
+            app:layout_constraintStart_toStartOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/info_l5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="260dp"
+            android:text="duelista"
+            android:textColor="@color/color3"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.543"
+            app:layout_constraintStart_toStartOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/info_l6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="276dp"
+            android:text="duelista"
+            android:textColor="@color/color3"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.543"
+            app:layout_constraintStart_toStartOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/info_l7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="292dp"
+            android:text="duelista"
+            android:textColor="@color/color3"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.543"
+            app:layout_constraintStart_toStartOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/info_l8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="308dp"
+            android:text="duelista"
+            android:textColor="@color/color3"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.543"
+            app:layout_constraintStart_toStartOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/info_l9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="324dp"
+            android:text="duelista"
+            android:textColor="@color/color3"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.543"
+            app:layout_constraintStart_toStartOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <TextView
+            android:id="@+id/info_l10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="340dp"
+            android:text="duelista"
+            android:textColor="@color/color3"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.543"
+            app:layout_constraintStart_toStartOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8" />
+
+        <ImageButton
+            android:id="@+id/cerrar_info_lose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="356dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintHorizontal_bias="0.836"
+            app:layout_constraintStart_toStartOf="@+id/ondo_dungeoxyzv8"
+            app:layout_constraintTop_toTopOf="@+id/ondo_dungeoxyzv8"
+            app:srcCompat="@drawable/cerrar1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

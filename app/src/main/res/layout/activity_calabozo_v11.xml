@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo1"
+    tools:context=".calabozo_v11">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout8"
+        android:layout_width="378dp"
+        android:layout_height="588dp"
+        android:layout_marginTop="75dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.341"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ondo_dungeoxyzv11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/parte2_lvl9" />
+
+        <ImageView
+            android:id="@+id/fondo_arquetipo_kuriv11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo6_22_152454" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout52"
+            android:layout_width="202dp"
+            android:layout_height="225dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.09"
+            app:layout_constraintStart_toStartOf="@+id/ondo_dungeoxyzv11"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView161"
+                android:layout_width="168dp"
+                android:layout_height="220dp"
+                android:layout_marginTop="4dp"
+                android:rotationY="18"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.117"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/vs_lvl6" />
+
+            <TextView
+                android:id="@+id/v11_l1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Duelista"
+                android:textColor="@color/color3"
+                android:textSize="12sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView161"
+                app:layout_constraintHorizontal_bias="0.05"
+                app:layout_constraintStart_toStartOf="@+id/imageView161"
+                app:layout_constraintTop_toTopOf="@+id/imageView161" />
+
+            <TextView
+                android:id="@+id/v11_l12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Duelista"
+                android:textColor="@color/purple_700"
+                android:textSize="12sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView161"
+                app:layout_constraintHorizontal_bias="0.05"
+                app:layout_constraintStart_toStartOf="@+id/imageView161"
+                app:layout_constraintTop_toTopOf="@+id/imageView161" />
+
+            <TextView
+                android:id="@+id/v11_l13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="56dp"
+                android:text="Duelista"
+                android:textColor="@color/purple_700"
+                android:textSize="12sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView161"
+                app:layout_constraintHorizontal_bias="0.05"
+                app:layout_constraintStart_toStartOf="@+id/imageView161"
+                app:layout_constraintTop_toTopOf="@+id/imageView161" />
+
+            <TextView
+                android:id="@+id/v11_l14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="88dp"
+                android:text="Duelista"
+                android:textColor="@color/purple_700"
+                android:textSize="12sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView161"
+                app:layout_constraintHorizontal_bias="0.051"
+                app:layout_constraintStart_toStartOf="@+id/imageView161"
+                app:layout_constraintTop_toTopOf="@+id/imageView161" />
+
+            <TextView
+                android:id="@+id/v11_l15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="118dp"
+                android:text="Duelista"
+                android:textColor="@color/purple_700"
+                android:textSize="12sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView161"
+                app:layout_constraintHorizontal_bias="0.051"
+                app:layout_constraintStart_toStartOf="@+id/imageView161"
+                app:layout_constraintTop_toTopOf="@+id/imageView161" />
+
+            <TextView
+                android:id="@+id/v11_l16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="144dp"
+                android:text="Duelista"
+                android:textColor="@color/purple_700"
+                android:textSize="12sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView161"
+                app:layout_constraintHorizontal_bias="0.07"
+                app:layout_constraintStart_toStartOf="@+id/imageView161"
+                app:layout_constraintTop_toTopOf="@+id/imageView161" />
+
+            <TextView
+                android:id="@+id/v11_l17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="176dp"
+                android:text="Duelista"
+                android:textColor="@color/purple_700"
+                android:textSize="12sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView161"
+                app:layout_constraintHorizontal_bias="0.07"
+                app:layout_constraintStart_toStartOf="@+id/imageView161"
+                app:layout_constraintTop_toTopOf="@+id/imageView161" />
+
+            <TextView
+                android:id="@+id/v11_l2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+                android:text="Duelista"
+                android:textColor="@color/color3"
+                android:textSize="12sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView161"
+                app:layout_constraintHorizontal_bias="0.05"
+                app:layout_constraintStart_toStartOf="@+id/imageView161"
+                app:layout_constraintTop_toTopOf="@+id/imageView161" />
+
+            <TextView
+                android:id="@+id/v11_l3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:text="Duelista"
+                android:textColor="@color/color3"
+                android:textSize="12sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView161"
+                app:layout_constraintHorizontal_bias="0.051"
+                app:layout_constraintStart_toStartOf="@+id/imageView161"
+                app:layout_constraintTop_toTopOf="@+id/imageView161" />
+
+            <TextView
+                android:id="@+id/v11_l4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="108dp"
+                android:text="Duelista"
+                android:textColor="@color/color3"
+                android:textSize="12sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView161"
+                app:layout_constraintHorizontal_bias="0.043"
+                app:layout_constraintStart_toStartOf="@+id/imageView161"
+                app:layout_constraintTop_toTopOf="@+id/imageView161" />
+
+            <TextView
+                android:id="@+id/v11_l5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="136dp"
+                android:text="Duelista"
+                android:textColor="@color/color3"
+                android:textSize="12sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView161"
+                app:layout_constraintHorizontal_bias="0.07"
+                app:layout_constraintStart_toStartOf="@+id/imageView161"
+                app:layout_constraintTop_toTopOf="@+id/imageView161" />
+
+            <TextView
+                android:id="@+id/v11_l6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="166dp"
+                android:text="Duelista"
+                android:textColor="@color/color3"
+                android:textSize="12sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView161"
+                app:layout_constraintHorizontal_bias="0.07"
+                app:layout_constraintStart_toStartOf="@+id/imageView161"
+                app:layout_constraintTop_toTopOf="@+id/imageView161" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout53"
+            android:layout_width="175dp"
+            android:layout_height="226dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/ondo_dungeoxyzv11"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView162"
+                android:layout_width="168dp"
+                android:layout_height="220dp"
+                android:layout_marginStart="-20dp"
+                android:layout_marginTop="4dp"
+                android:rotationY="-195"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.29"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/vs_lvl10" />
+
+            <TextView
+                android:id="@+id/v11_l7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Duelista"
+                android:textColor="@color/color3"
+                android:textSize="12sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView162"
+                app:layout_constraintHorizontal_bias="0.88"
+                app:layout_constraintStart_toStartOf="@+id/imageView162"
+                app:layout_constraintTop_toTopOf="@+id/imageView162" />
+
+            <TextView
+                android:id="@+id/v11_l8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="57dp"
+                android:text="Duelista"
+                android:textColor="@color/color3"
+                android:textSize="12sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView162"
+                app:layout_constraintHorizontal_bias="0.874"
+                app:layout_constraintStart_toStartOf="@+id/imageView162"
+                app:layout_constraintTop_toTopOf="@+id/imageView162" />
+
+            <TextView
+                android:id="@+id/v11_l9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="95dp"
+                android:text="Duelista"
+                android:textColor="@color/color3"
+                android:textSize="12sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView162"
+                app:layout_constraintHorizontal_bias="0.88"
+                app:layout_constraintStart_toStartOf="@+id/imageView162"
+                app:layout_constraintTop_toTopOf="@+id/imageView162" />
+
+            <TextView
+                android:id="@+id/v11_l10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="134dp"
+                android:text="Duelista"
+                android:textColor="@color/color3"
+                android:textSize="12sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView162"
+                app:layout_constraintHorizontal_bias="0.935"
+                app:layout_constraintStart_toStartOf="@+id/imageView162"
+                app:layout_constraintTop_toTopOf="@+id/imageView162" />
+
+            <TextView
+                android:id="@+id/v11_l11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="168dp"
+                android:text="Duelista"
+                android:textColor="@color/color3"
+                android:textSize="12sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView162"
+                app:layout_constraintHorizontal_bias="0.935"
+                app:layout_constraintStart_toStartOf="@+id/imageView162"
+                app:layout_constraintTop_toTopOf="@+id/imageView162" />
+
+            <TextView
+                android:id="@+id/v11_l18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:text="Duelista"
+                android:textColor="@color/purple_700"
+                android:textSize="12sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView162"
+                app:layout_constraintHorizontal_bias="0.895"
+                app:layout_constraintStart_toStartOf="@+id/imageView162"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/v11_l19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="72dp"
+                android:text="Duelista"
+                android:textColor="@color/purple_700"
+                android:textSize="12sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView162"
+                app:layout_constraintHorizontal_bias="0.9"
+                app:layout_constraintStart_toStartOf="@+id/imageView162"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/v11_l20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="110dp"
+                android:text="Duelista"
+                android:textColor="@color/purple_700"
+                android:textSize="12sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView162"
+                app:layout_constraintHorizontal_bias="0.895"
+                app:layout_constraintStart_toStartOf="@+id/imageView162"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/v11_l21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="148dp"
+                android:text="Duelista"
+                android:textColor="@color/purple_700"
+                android:textSize="12sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView162"
+                app:layout_constraintHorizontal_bias="0.935"
+                app:layout_constraintStart_toStartOf="@+id/imageView162"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/v11_l22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="182dp"
+                android:rotationY="-198"
+                android:text="Duelista"
+                android:textColor="@color/purple_700"
+                android:textSize="12sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView162"
+                app:layout_constraintHorizontal_bias="0.94"
+                app:layout_constraintStart_toStartOf="@+id/imageView162"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="72dp"
+            android:layout_height="119dp"
+            android:layout_marginTop="44dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/ondo_dungeoxyzv11"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView160"
+                android:layout_width="72dp"
+                android:layout_height="103dp"
+                android:layout_marginStart="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageView161"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/copalvl6_1_"
+                tools:ignore="NotSibling" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="369dp"
+            android:layout_height="87dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/ondo_dungeoxyzv11"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/ondo_dungeoxyzv11">
+
+            <ImageView
+                android:id="@+id/imageView163"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.07"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/parte3_lvl9" />
+
+            <ImageButton
+                android:id="@+id/imageButton87"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="#00FFFFFF"
+                android:onClick="detallesDerrota"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.937"
+                app:layout_constraintStart_toStartOf="@+id/imageView163"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/boton_lose" />
+
+            <ImageButton
+                android:id="@+id/politicas_v11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+                android:background="#00FFFFFF"
+                android:onClick="llamadaPoliticas"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.937"
+                app:layout_constraintStart_toStartOf="@+id/imageView163"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/boton_polticasi" />
+
+            <Button
+                android:id="@+id/calabozo_v11_b1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="enlaceLVL6"
+                android:text="Button"
+                app:layout_constraintEnd_toEndOf="@+id/imageView163"
+                app:layout_constraintHorizontal_bias="0.116"
+                app:layout_constraintStart_toStartOf="@+id/imageView163"
+                app:layout_constraintTop_toTopOf="@+id/imageView163" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout47"
+        android:layout_width="417dp"
+        android:layout_height="73dp"
+        android:background="@drawable/fondo_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView145"
+            android:layout_width="115dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.983"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/slogan" />
+
+        <ImageButton
+            android:id="@+id/imageButton82"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/efecto_cerrar"
+            android:onClick="cerrar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.086"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cerrar1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="368dp"
+        android:layout_height="346dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.99">
+
+        <ImageView
+            android:id="@+id/imageView185"
+            android:layout_width="351dp"
+            android:layout_height="157dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.98"
+            app:srcCompat="@drawable/aviso_dungeon_xyz" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

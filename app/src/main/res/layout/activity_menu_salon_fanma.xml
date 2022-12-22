@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090707"
+    tools:context=".menuSalonFanma">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout21"
+        android:layout_width="407dp"
+        android:layout_height="107dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView80"
+            android:layout_width="410dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="-15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.909"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="405dp"
+        android:layout_height="425dp"
+        android:layout_marginTop="216dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView83"
+            android:layout_width="379dp"
+            android:layout_height="422dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.13"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/menu2_" />
+
+        <ImageButton
+            android:id="@+id/imageButton48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="116dp"
+            android:background="@drawable/efecto_button_entrada_good"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.135"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/boton_batle_good" />
+
+        <ImageButton
+            android:id="@+id/imageButton49"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="116dp"
+            android:background="@drawable/efecto_button_entrda_tesla"
+            android:onClick="salonEventos"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.139"
+            app:layout_constraintStart_toEndOf="@+id/imageButton48"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/boton_entrada_tesla" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="409dp"
+        android:layout_height="96dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/imageView75"
+            android:layout_width="411dp"
+            android:layout_height="73dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/barra_n1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="406dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView94"
+            android:layout_width="403dp"
+            android:layout_height="105dp"
+            android:layout_marginTop="-5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.03"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/menu_titulo4" />
+
+        <ImageButton
+            android:id="@+id/imageButton51"
+            android:layout_width="67dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="56dp"
+            android:background="@drawable/efecto_reglas_button"
+            android:onClick="caracteristicas"
+            app:layout_constraintEnd_toEndOf="@+id/imageView94"
+            app:layout_constraintHorizontal_bias="0.913"
+            app:layout_constraintStart_toStartOf="@+id/imageView94"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/boton_punto" />
+
+        <ImageButton
+            android:id="@+id/imageButton50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:background="@drawable/efecto_cerrar"
+            android:onClick="cerrar"
+            app:layout_constraintEnd_toEndOf="@+id/imageView94"
+            app:layout_constraintHorizontal_bias="0.041"
+            app:layout_constraintStart_toStartOf="@+id/imageView94"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cerrar1" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:text="SALON  DE LA FAMA"
+            android:textAlignment="textStart"
+            android:textColor="#090303"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/imageView94"
+            app:layout_constraintHorizontal_bias="0.448"
+            app:layout_constraintStart_toStartOf="@+id/imageView94"
+            app:layout_constraintTop_toTopOf="@+id/imageView94" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

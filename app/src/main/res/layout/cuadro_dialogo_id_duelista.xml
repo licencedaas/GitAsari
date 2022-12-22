@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout46"
+        android:layout_width="405dp"
+        android:layout_height="587dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <ImageButton
+            android:id="@+id/id_cerrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.106"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cerrar1" />
+
+        <ImageView
+            android:id="@+id/pla_Kirito"
+            android:layout_width="364dp"
+            android:layout_height="383dp"
+            android:layout_marginTop="188dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.609"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/kirito_player" />
+
+        <ImageView
+            android:id="@+id/fon_Kirito"
+            android:layout_width="364dp"
+            android:layout_height="383dp"
+            android:layout_marginTop="112dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.609"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/kirito"
+            tools:srcCompat="@drawable/kirito" />
+
+        <ImageView
+            android:id="@+id/marco_sala1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="260dp"
+            app:layout_constraintEnd_toEndOf="@+id/pla_Kirito"
+            app:layout_constraintHorizontal_bias="0.695"
+            app:layout_constraintStart_toStartOf="@+id/pla_Kirito"
+            app:layout_constraintTop_toTopOf="@+id/pla_Kirito"
+            app:srcCompat="@drawable/marco_lose" />
+
+        <ImageView
+            android:id="@+id/marco_ud1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="288dp"
+            app:layout_constraintEnd_toEndOf="@+id/pla_Kirito"
+            app:layout_constraintHorizontal_bias="0.695"
+            app:layout_constraintStart_toStartOf="@+id/pla_Kirito"
+            app:layout_constraintTop_toTopOf="@+id/pla_Kirito"
+            app:srcCompat="@drawable/marco_lose" />
+
+        <ImageView
+            android:id="@+id/marco_mesa1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="316dp"
+            app:layout_constraintEnd_toEndOf="@+id/pla_Kirito"
+            app:layout_constraintHorizontal_bias="0.689"
+            app:layout_constraintStart_toStartOf="@+id/pla_Kirito"
+            app:layout_constraintTop_toTopOf="@+id/pla_Kirito"
+            app:srcCompat="@drawable/marco_lose" />
+
+        <TextView
+            android:id="@+id/id_codigo"
+            android:layout_width="147dp"
+            android:layout_height="34dp"
+            android:text="000-000-00"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#F8F5F5"
+            android:textSize="20sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/marco_sala1"
+            app:layout_constraintStart_toStartOf="@+id/marco_sala1"
+            app:layout_constraintTop_toTopOf="@+id/marco_sala1" />
+
+        <TextView
+            android:id="@+id/id_codigo3"
+            android:layout_width="147dp"
+            android:layout_height="34dp"
+            android:text="000-000-00"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#F8F5F5"
+            android:textSize="20sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/marco_ud1"
+            app:layout_constraintStart_toStartOf="@+id/marco_ud1"
+            app:layout_constraintTop_toBottomOf="@+id/id_codigo" />
+
+        <TextView
+            android:id="@+id/id_codigo4"
+            android:layout_width="147dp"
+            android:layout_height="34dp"
+            android:text="000-000-00"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#F8F5F5"
+            android:textSize="20sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/marco_mesa1"
+            app:layout_constraintStart_toStartOf="@+id/marco_mesa1"
+            app:layout_constraintTop_toBottomOf="@+id/marco_ud1" />
+
+        <ImageView
+            android:id="@+id/marco_idmesa1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="268dp"
+            app:layout_constraintEnd_toEndOf="@+id/fon_Kirito"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toStartOf="@+id/fon_Kirito"
+            app:layout_constraintTop_toTopOf="@+id/fon_Kirito"
+            app:srcCompat="@drawable/marco_lose" />
+
+        <TextView
+            android:id="@+id/id_codigo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="000-000-000"
+            android:textColor="#0C0707"
+            android:textSize="24sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/marco_idmesa1"
+            app:layout_constraintStart_toStartOf="@+id/marco_idmesa1"
+            app:layout_constraintTop_toTopOf="@+id/marco_idmesa1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <EditText
+        android:id="@+id/id_digitar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Digite ID "
+        android:inputType="textPersonName"
+        android:textColor="#F4F2F2"
+        android:textColorHighlight="#370404"
+        android:textColorHint="#FAF2F2"
+        android:textColorLink="#E64A19"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout46"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <ImageButton
+        android:id="@+id/id_carga"
+        android:layout_width="109dp"
+        android:layout_height="60dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.322"
+        app:layout_constraintStart_toEndOf="@+id/id_digitar"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout46"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:drawable/presence_online" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

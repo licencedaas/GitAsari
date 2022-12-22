@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090606"
+    tools:context="licence.asari.manager.gremio">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="381dp"
+        android:layout_height="292dp"
+        android:layout_marginTop="356dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioGroup
+            android:id="@+id/gremio_rg1"
+            android:layout_width="175dp"
+            android:layout_height="207dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.177"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RadioButton
+                android:id="@+id/permiso_r1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RadioButton"
+                android:textColor="#F1EEEE" />
+
+            <RadioButton
+                android:id="@+id/permiso_r2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RadioButton"
+                android:textColor="#FDF9F9" />
+
+            <RadioButton
+                android:id="@+id/permiso_r3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RadioButton"
+                android:textColor="#F3EDED" />
+
+            <RadioButton
+                android:id="@+id/permiso_r4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RadioButton"
+                android:textColor="#F6F6F6" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/Gremiogrupo_2"
+            android:layout_width="129dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RadioButton
+                android:id="@+id/permiso_r5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Admin"
+                android:textAlignment="viewStart"
+                android:textColor="#F3EEEE"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/permiso_r6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Standar"
+                android:textAlignment="viewStart"
+                android:textColor="#F4F1F1"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/permiso_r7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eliminar"
+                android:textColor="#F8F8F8"
+                android:textStyle="bold" />
+        </RadioGroup>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="410dp"
+        android:layout_height="88dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView47"
+            android:layout_width="414dp"
+            android:layout_height="76dp"
+            android:layout_marginTop="-15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="382dp"
+        android:layout_height="271dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout2">
+
+        <TextView
+            android:id="@+id/gremio_l2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="204dp"
+            android:text="Codigo:"
+            android:textAlignment="textStart"
+            android:textColor="#F6F3F3"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.112"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/gremio_l1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="224dp"
+            android:text="Dimen:"
+            android:textAlignment="viewStart"
+            android:textColor="#EDE5E5"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.11"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/permiso_sp1"
+            android:layout_width="184dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="76dp"
+            android:layout_marginTop="48dp"
+            android:background="#F8F5F5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.196"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageButton23"
+            android:layout_width="44dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/efecto_cerrar"
+            android:onClick="cierre"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.047"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cerrar1" />
+
+        <ImageView
+            android:id="@+id/imageView105"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/permiso_sp1"
+            app:srcCompat="@drawable/boton_standar" />
+
+        <EditText
+            android:id="@+id/gremio_t1"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="36dp"
+            android:ems="10"
+            android:hint="MiniEvento"
+            android:inputType="textPersonName"
+            android:textColorHighlight="#00FFFFFF"
+            android:textColorLink="#002196F3"
+            android:textSize="12sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/imageView105"
+            app:layout_constraintHorizontal_bias="0.55"
+            app:layout_constraintStart_toStartOf="@+id/imageView105"
+            app:layout_constraintTop_toBottomOf="@+id/permiso_sp1" />
+
+        <ImageButton
+            android:id="@+id/imageButton60"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/efecto_button"
+            android:onClick="miniEvebto"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.857"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView105"
+            app:srcCompat="@drawable/boton_registro" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="409dp"
+        android:layout_height="81dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/imageView78"
+            android:layout_width="404dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="36dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/barra_n1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

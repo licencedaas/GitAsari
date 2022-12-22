@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/enlace"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5050404"
+    tools:context="licence.asari.manager.MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="411dp"
+        android:layout_height="731dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="2dp">
+
+        <VideoView
+            android:id="@+id/intro"
+            android:layout_width="402dp"
+            android:layout_height="480dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.444"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.007" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="152dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="492dp"
+
+            android:background="@drawable/efecto_button"
+            android:contentDescription="bienvenido asari"
+            android:onClick="inicio"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/boton_iniciar" />
+
+        <ImageButton
+            android:id="@+id/imageButton54"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="68dp"
+            android:background="@drawable/efecto_button"
+            android:contentDescription="@string/politicas_seccion"
+            android:minHeight="48dp"
+            android:onClick="enlace"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.141"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton"
+            app:srcCompat="@drawable/boton_polticasi" />
+
+        <ImageButton
+            android:id="@+id/imageButton78"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="68dp"
+            android:background="@drawable/efecto_button"
+            android:contentDescription="@string/politicas_seccion"
+            android:minHeight="48dp"
+            android:onClick="grup"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.864"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton"
+            app:srcCompat="@drawable/boton_grupo" />
+
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:text="Version: 1.18"
+            android:textColor="#F5F8F8"
+            android:textStyle="normal|bold"
+            app:layout_constraintBottom_toBottomOf="@+id/intro"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.128"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/intro"
+            app:layout_constraintVertical_bias="0.039" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/under_tabla_cerrar"
+            android:layout_width="378dp"
+            android:layout_height="658dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.483"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/tabla_v3_3" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="20dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="20dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="20dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="20dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="20dp" />
+
+        <ImageView
+            android:id="@+id/imageView236"
+            android:layout_width="354dp"
+            android:layout_height="151dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/under_tabla_cerrar"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/tabla_v3_2" />
+
+        <ImageView
+            android:id="@+id/imageView237"
+            android:layout_width="49dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="244dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView238"
+            app:layout_constraintEnd_toEndOf="@+id/under_tabla_cerrar"
+            app:layout_constraintHorizontal_bias="0.036"
+            app:layout_constraintStart_toStartOf="@+id/under_tabla_cerrar"
+            app:layout_constraintTop_toTopOf="@+id/under_tabla_cerrar"
+            app:srcCompat="@android:drawable/radiobutton_off_background" />
+
+        <ImageView
+            android:id="@+id/imageView242"
+            android:layout_width="61dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="242dp"
+            app:layout_constraintEnd_toEndOf="@+id/under_tabla_cerrar"
+            app:layout_constraintHorizontal_bias="0.307"
+            app:layout_constraintStart_toEndOf="@+id/tabla_under_l1"
+            app:layout_constraintTop_toTopOf="@+id/under_tabla_cerrar"
+            app:srcCompat="@android:drawable/ic_menu_myplaces" />
+
+        <ImageView
+            android:id="@+id/imageView243"
+            android:layout_width="61dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="272dp"
+            app:layout_constraintEnd_toEndOf="@+id/under_tabla_cerrar"
+            app:layout_constraintHorizontal_bias="0.306"
+            app:layout_constraintStart_toEndOf="@+id/tabla_under_l"
+            app:layout_constraintTop_toTopOf="@+id/under_tabla_cerrar"
+            app:srcCompat="@android:drawable/ic_menu_myplaces" />
+
+        <ImageView
+            android:id="@+id/imageView244"
+            android:layout_width="61dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="300dp"
+            app:layout_constraintEnd_toEndOf="@+id/under_tabla_cerrar"
+            app:layout_constraintHorizontal_bias="0.306"
+            app:layout_constraintStart_toEndOf="@+id/tabla_under_l2"
+            app:layout_constraintTop_toTopOf="@+id/under_tabla_cerrar"
+            app:srcCompat="@android:drawable/ic_menu_myplaces" />
+
+        <ImageView
+            android:id="@+id/imageView245"
+            android:layout_width="61dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="328dp"
+            app:layout_constraintEnd_toEndOf="@+id/under_tabla_cerrar"
+            app:layout_constraintHorizontal_bias="0.306"
+            app:layout_constraintStart_toEndOf="@+id/tabla_under_l3"
+            app:layout_constraintTop_toTopOf="@+id/under_tabla_cerrar"
+            app:srcCompat="@android:drawable/ic_menu_myplaces" />
+
+        <ImageView
+            android:id="@+id/imageView246"
+            android:layout_width="61dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="360dp"
+            app:layout_constraintEnd_toEndOf="@+id/under_tabla_cerrar"
+            app:layout_constraintHorizontal_bias="0.306"
+            app:layout_constraintStart_toEndOf="@+id/tabla_under_l5"
+            app:layout_constraintTop_toTopOf="@+id/under_tabla_cerrar"
+            app:srcCompat="@android:drawable/ic_menu_myplaces" />
+
+        <ImageView
+            android:id="@+id/imageView238"
+            android:layout_width="49dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="280dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView239"
+            app:layout_constraintEnd_toEndOf="@+id/under_tabla_cerrar"
+            app:layout_constraintHorizontal_bias="0.036"
+            app:layout_constraintStart_toStartOf="@+id/under_tabla_cerrar"
+            app:layout_constraintTop_toTopOf="@+id/under_tabla_cerrar"
+            app:srcCompat="@android:drawable/radiobutton_off_background" />
+
+        <ImageView
+            android:id="@+id/imageView239"
+            android:layout_width="49dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="316dp"
+            app:layout_constraintEnd_toEndOf="@+id/under_tabla_cerrar"
+            app:layout_constraintHorizontal_bias="0.036"
+            app:layout_constraintStart_toStartOf="@+id/under_tabla_cerrar"
+            app:layout_constraintTop_toTopOf="@+id/under_tabla_cerrar"
+            app:srcCompat="@android:drawable/radiobutton_off_background" />
+
+        <ImageView
+            android:id="@+id/imageView240"
+            android:layout_width="49dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="348dp"
+            app:layout_constraintEnd_toEndOf="@+id/under_tabla_cerrar"
+            app:layout_constraintHorizontal_bias="0.036"
+            app:layout_constraintStart_toStartOf="@+id/under_tabla_cerrar"
+            app:layout_constraintTop_toTopOf="@+id/under_tabla_cerrar"
+            app:srcCompat="@android:drawable/radiobutton_off_background" />
+
+        <ImageView
+            android:id="@+id/imageView241"
+            android:layout_width="49dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="380dp"
+            app:layout_constraintEnd_toEndOf="@+id/under_tabla_cerrar"
+            app:layout_constraintHorizontal_bias="0.036"
+            app:layout_constraintStart_toStartOf="@+id/under_tabla_cerrar"
+            app:layout_constraintTop_toTopOf="@+id/under_tabla_cerrar"
+            app:srcCompat="@android:drawable/radiobutton_off_background" />
+
+        <TextView
+            android:id="@+id/tabla_under_l1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="252dp"
+            android:text="Duelista"
+            android:textColor="#4CAF50"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/under_tabla_cerrar"
+            app:layout_constraintHorizontal_bias="0.077"
+            app:layout_constraintStart_toEndOf="@+id/imageView237"
+            app:layout_constraintTop_toTopOf="@+id/under_tabla_cerrar" />
+
+        <TextView
+            android:id="@+id/tabla_under_l7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="252dp"
+            android:text="0"
+            android:textColor="#4CAF50"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/under_tabla_cerrar"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView242"
+            app:layout_constraintTop_toTopOf="@+id/under_tabla_cerrar" />
+
+        <TextView
+            android:id="@+id/tabla_under_l12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="282dp"
+            android:text="0"
+            android:textColor="#4CAF50"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/under_tabla_cerrar"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView243"
+            app:layout_constraintTop_toTopOf="@+id/under_tabla_cerrar" />
+
+        <TextView
+            android:id="@+id/tabla_under_l6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="310dp"
+            android:text="0"
+            android:textColor="#4CAF50"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/under_tabla_cerrar"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView243"
+            app:layout_constraintTop_toTopOf="@+id/under_tabla_cerrar" />
+
+        <TextView
+            android:id="@+id/tabla_under_l13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="282dp"
+            android:text="0"
+            android:textColor="#4CAF50"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/under_tabla_cerrar"
+            app:layout_constraintHorizontal_bias="0.17"
+            app:layout_constraintStart_toEndOf="@+id/imageView243"
+            app:layout_constraintTop_toTopOf="@+id/under_tabla_cerrar" />
+
+        <TextView
+            android:id="@+id/tabla_under_l14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="282dp"
+            android:text="0"
+            android:textColor="#4CAF50"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/under_tabla_cerrar"
+            app:layout_constraintHorizontal_bias="0.32"
+            app:layout_constraintStart_toEndOf="@+id/imageView243"
+            app:layout_constraintTop_toTopOf="@+id/under_tabla_cerrar" />
+
+        <TextView
+            android:id="@+id/tabla_under_l15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="282dp"
+            android:text="0"
+            android:textColor="#4CAF50"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/under_tabla_cerrar"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toEndOf="@+id/imageView243"
+            app:layout_constraintTop_toTopOf="@+id/under_tabla_cerrar" />
+
+        <TextView
+            android:id="@+id/tabla_under_l8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="252dp"
+            android:text="0"
+            android:textColor="#CDDC39"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/under_tabla_cerrar"
+            app:layout_constraintHorizontal_bias="0.14"
+            app:layout_constraintStart_toEndOf="@+id/imageView242"
+            app:layout_constraintTop_toTopOf="@+id/under_tabla_cerrar" />
+
+        <TextView
+            android:id="@+id/tabla_under_l9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="252dp"
+            android:text="0"
+            android:textColor="#FF5722"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/under_tabla_cerrar"
+            app:layout_constraintHorizontal_bias="0.31"
+            app:layout_constraintStart_toEndOf="@+id/imageView242"
+            app:layout_constraintTop_toTopOf="@+id/under_tabla_cerrar" />
+
+        <TextView
+            android:id="@+id/tabla_under_l10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="252dp"
+            android:text="0"
+            android:textColor="#F44336"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/under_tabla_cerrar"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toEndOf="@+id/imageView242"
+            app:layout_constraintTop_toTopOf="@+id/under_tabla_cerrar" />
+
+        <TextView
+            android:id="@+id/tabla_under_l"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="280dp"
+            android:text="Duelista"
+            android:textColor="#4CAF50"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/under_tabla_cerrar"
+            app:layout_constraintHorizontal_bias="0.079"
+            app:layout_constraintStart_toEndOf="@+id/imageView238"
+            app:layout_constraintTop_toTopOf="@+id/under_tabla_cerrar" />
+
+        <TextView
+            android:id="@+id/tabla_under_l2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="308dp"
+            android:text="Duelista"
+            android:textColor="#4CAF50"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/under_tabla_cerrar"
+            app:layout_constraintHorizontal_bias="0.079"
+            app:layout_constraintStart_toEndOf="@+id/imageView239"
+            app:layout_constraintTop_toTopOf="@+id/under_tabla_cerrar" />
+
+        <TextView
+            android:id="@+id/tabla_under_l3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="336dp"
+            android:text="Duelista"
+            android:textColor="#4CAF50"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/under_tabla_cerrar"
+            app:layout_constraintHorizontal_bias="0.079"
+            app:layout_constraintStart_toEndOf="@+id/imageView240"
+            app:layout_constraintTop_toTopOf="@+id/under_tabla_cerrar" />
+
+        <TextView
+            android:id="@+id/tabla_under_l4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="336dp"
+            android:text="Duelista"
+            android:textColor="#4CAF50"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/under_tabla_cerrar"
+            app:layout_constraintHorizontal_bias="0.079"
+            app:layout_constraintStart_toEndOf="@+id/imageView240"
+            app:layout_constraintTop_toTopOf="@+id/under_tabla_cerrar" />
+
+        <TextView
+            android:id="@+id/tabla_under_l5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="372dp"
+            android:text="Duelista"
+            android:textColor="#4CAF50"
+            android:textStyle="normal|bold"
+            app:layout_constraintEnd_toEndOf="@+id/under_tabla_cerrar"
+            app:layout_constraintHorizontal_bias="0.079"
+            app:layout_constraintStart_toEndOf="@+id/imageView240"
+            app:layout_constraintTop_toTopOf="@+id/under_tabla_cerrar" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
